@@ -10,3 +10,7 @@ body {
     color: var(--tg-theme-text-color)
     background: var(--tg-theme-bg-color)
 }
+h1 {
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
