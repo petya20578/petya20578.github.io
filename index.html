@@ -127,6 +127,10 @@
                 document.getElementById("error").innerText = 'Ошибка в номере телефона не менее 11 символов';
                 return;
             }
+            let data = {
+                order.addEventListener("click")
+            }
+            tg.sendData(JSON.stringify(data))
             
             tg.close();
         });
