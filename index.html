@@ -128,7 +128,9 @@
                 return;
             }
             let data = {
-                order.addEventListener("click")
+                name: name,
+                email: email,
+                phone: phone
             }
             tg.sendData(JSON.stringify(data))
             
